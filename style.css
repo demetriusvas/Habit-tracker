@@ -13,18 +13,20 @@ body{
     font-size: 1.5rem;
 }
 
-.main{
+.habito1{
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 10px;
 }
 
-.main__lado-esq{
+.lado-esq1{
     width: 25%;
     border: 1px solid red;
+    padding: 1rem;
 }
 
-.main__lado-dir{
+.lado-dir1{
     width: 75%;
     border: 1px solid #ff0000;
     display: flex;
@@ -33,19 +35,16 @@ body{
     padding: 1rem;
 }
 
-.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9,
-.circle10, .circle11, .circle12, .circle13, .circle14, .circle15, .circle16, .circle17,
-.circle18, .circle19, .circle20, .circle21, .circle22, .circle23, .circle24, .circle25,
-.circle26, .circle27, .circle28, .circle29, .circle30, .circle31{
-    background-color: lightgreen;
+button{
+    background-color: rgb(167, 240, 167);
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid green
 }
 
-.circle1_checked{
-    background-color: rgb(24, 241, 24);
+button:hover, .button-clicked{
+    background-color: rgb(42, 252, 42);
 }
