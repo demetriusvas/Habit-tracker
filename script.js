@@ -9,9 +9,13 @@ function mudarCor(circle){
     switch(circle){
         case 'circle1':
             document.getElementById('circle1').className = 'button-clicked';
+            let key = 'circle1';
+            localStorage.setItem(key, '1');
             break;
         case 'circle2':
             document.getElementById('circle2').className = 'button-clicked';
+            let key2 = 'circle2';
+            localStorage.setItem(key2, '2');
             break;
         case 'circle3':
             document.getElementById('circle3').className = 'button-clicked';
